@@ -18,7 +18,7 @@ public class Prime {
             }
         }
 
-        if(isPrime)
+        if(isPrime) // by default isprime is True
         System.out.println(num+" is Prime number");
 
         else
