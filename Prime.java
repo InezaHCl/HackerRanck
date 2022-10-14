@@ -10,7 +10,8 @@ public class Prime {
 
         boolean isPrime = true;
 
-        for(int i=2; i<num; i++){
+        for(int i=2; i<num; i++){  //for loop is for non prime number
+            //condition for non prime number
             if(num % 2 == 0){
                 isPrime = false;
                 break;
